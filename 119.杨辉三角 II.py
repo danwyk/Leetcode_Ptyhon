@@ -20,7 +20,7 @@ class Solution(object):
             result.append(1)
 
         else:
-            # append left most 1
+            # 填充最左边的1
             result.append(1)
             
             last_row = self.getRow(rowIndex - 1)
@@ -39,7 +39,7 @@ class Solution(object):
 
                 result.append(tmp)
             
-            # append right most 1
+            # 填充最右边的1
             result.append(1)
         
         return result
